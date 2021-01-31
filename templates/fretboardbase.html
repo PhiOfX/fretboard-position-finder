@@ -107,7 +107,12 @@
     <button id="show_note_name_button" type="button" onclick="getNoteNameFromData()" style="width: 8em;">Note Name</button>
 
   </form>
-
+  <form id="search-form">
+    <input id="search-input" type="text" placeholder="Search.." name="search">
+    <button id="search-button" type="submit">
+        <img src="{% static '/media/search/search-icon.png' %}" alt="search-button-icon">
+    </button>
+  </form>
   <br>
   <div class="analysis_container" style="text-align: center;">
     Tensions:

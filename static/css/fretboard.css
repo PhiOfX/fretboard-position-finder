@@ -466,3 +466,48 @@ footer div{
   top: 25%;
   width: 95vw;
 }
+input#search-input{
+  height: 42px;
+}
+input#search-input[type=text] {
+  padding: 0;
+  padding-left: 1em;
+  margin-top: 0;
+  font-size: 17px;
+  border: none;
+  width: 65%;
+}
+form#search-form{
+  display: flex; 
+  margin-top: 0em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12rem;
+  height: 42px;
+  border: solid 1px #1D262A;
+}
+button#search-button{
+  width: 35%;
+  height: 42px;
+  box-shadow: unset;
+  border-radius: unset;
+  background: rgb(222,222,222);
+  background: -moz-radial-gradient(circle, rgba(222,222,222,1) 0%, rgba(222,222,222,1) 0%, rgba(162,165,166,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(222,222,222,1) 0%, rgba(222,222,222,1) 0%, rgba(162,165,166,1) 100%);
+  background: radial-gradient(circle, rgba(222,222,222,1) 0%, rgba(222,222,222,1) 0%, rgba(162,165,166,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dedede",endColorstr="#a2a5a6",GradientType=1);
+  border-color: #1D262A;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+}
+#search-button > img{
+  vertical-align: middle;
+}
+form button#search-button:hover {
+    transform: unset;
+    box-shadow: unset;
+}
+form#fretboard_form{
+  display:none;
+}

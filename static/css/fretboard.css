@@ -566,13 +566,11 @@ body > .bg-02{
   right: -64px;
   top: 670px;
 }
-
 /* Navbar */
 .topnav {
   overflow: hidden;
   width: 100%;
 }
-
 .topnav a {
   float:right;
   display: block;
@@ -581,21 +579,14 @@ body > .bg-02{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 22px;
+  margin-right: 4rem;
 }
-
-.topnav a:hover {
-  color: black;
+.topnav a.active-item {
+  font-weight: bold;
 }
-
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
 .topnav .icon {
   display: none;
 }
-
 @media screen and (max-width: 600px) {
   .topnav a {
     display: none;
@@ -605,9 +596,10 @@ body > .bg-02{
     display: block;
   }
 }
-
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive a {
     float: none;
     display: block;

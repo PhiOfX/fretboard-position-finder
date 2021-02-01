@@ -511,3 +511,54 @@ form button#search-button:hover {
 form#fretboard_form{
   display:none;
 }
+/* Circles */
+.circle-01 {
+   z-index: -1;
+   position: absolute;
+   width: 282px;
+   height: 293px;
+   background: #FDA60D;
+   -moz-border-radius: 70px;
+   -webkit-border-radius: 70px;
+   border-radius: 180px;
+   top: -90px;
+   left: -90px;
+}
+.circle-02 {
+   width: 107px;
+   height: 104px;
+   background: #FE3320;
+   -moz-border-radius: 70px;
+   -webkit-border-radius: 70px;
+   border-radius: 70px;
+}
+.circle-03 {
+   z-index: -1;
+   position: absolute;
+   width: 282px;
+   height: 293px;
+   background: #FDA60D;
+   -moz-border-radius: 70px;
+   -webkit-border-radius: 70px;
+   border-radius: 180px;
+   left: -60px;
+   top: -80px;
+}
+.circle-04 {
+   width: 107px;
+   height: 104px;
+   background: #FE3320;
+   -moz-border-radius: 70px;
+   -webkit-border-radius: 70px;
+   border-radius: 70px;
+}
+body > .bg-01{
+  position: absolute;
+  top: -3px;
+  left: -42px;
+}
+body > .bg-02{
+  position: absolute;
+  right: -64px;
+  top: 670px;
+}

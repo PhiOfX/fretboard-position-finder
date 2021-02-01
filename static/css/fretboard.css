@@ -600,21 +600,47 @@ body > .bg-02{
 .topnav .icon {
   display: none;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1020px) {
+  .topnav a{
+    width: 6rem;
+  }
+  .topnav a:hover{
+    background: unset;
+  }
+  .topnav a.active-item{
+    background: unset;
+  }
+}
+@media screen and (max-width: 910px) {
+  .topnav a{
+    margin-right: 2rem;
+  }
+}
+@media screen and (max-width: 780px) {
+  .topnav a{
+    margin-right: 1rem;
+  }
+}
+@media screen and (max-width: 710px) {
   .topnav a {
     display: none;
   }
   .topnav a.icon {
     float: inherit;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 710px) {
   .topnav.responsive {
     position: relative;
   }
   .topnav.responsive a {
     float: none;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12rem;
   }
 }

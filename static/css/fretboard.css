@@ -642,16 +642,28 @@ body > .bg-02{
     margin-left: auto;
     margin-right: auto;
   }
+  .bg-01{
+    display: none;
+  }
 }
 @media screen and (max-width: 710px) {
   .topnav.responsive {
     position: relative;
   }
-  .topnav.responsive a {
+  .topnav.responsive a:not(:first-of-type) {
     float: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 12rem;
+    width: calc(90vw - 24px);
+    background: white;
+    z-index: 100;
+    position: sticky;
+    padding: 24px;
+    font-weight: bold;
+  }
+  .topnav.responsive a:hover:not(:first-of-type){
+    background: #fdb73d;
+    color: white;
   }
 }

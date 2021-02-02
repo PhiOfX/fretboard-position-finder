@@ -443,7 +443,7 @@ footer div{
   margin: auto;
 }
 #github:hover .st0{
-  fill:rgb(171,173,193);
+  fill: #FDA60D;
 }
 .mbs-portrait{
   display:none;
@@ -555,6 +555,17 @@ form#fretboard_form{
    -moz-border-radius: 70px;
    -webkit-border-radius: 70px;
    border-radius: 70px;
+}
+.bg-01, .bg-02{
+  opacity: 65%;
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+}
+.bg-01:hover{
+  opacity: 90%;
+}
+.bg-02:hover{
+  opacity: 90%;
 }
 body > .bg-01{
   position: absolute;

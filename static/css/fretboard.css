@@ -448,7 +448,7 @@ footer div{
 .mbs-portrait{
   display:none;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 5rem);
 }
 @media only screen and (orientation:portrait) {
  .mbs{
@@ -587,7 +587,7 @@ body > .bg-02{
   display: block;
   color: #1D262A;
   text-align: center;
-  padding: 14px 14px 24px 14px;
+  padding: 0.8rem;
   text-decoration: none;
   font-size: 22px;
   margin-right: 4rem;
@@ -640,11 +640,18 @@ body > .bg-02{
 }
 @media screen and (max-width: 710px) {
   .mbs.responsive, .mbs-portrait.responsive{
-    zoom: 0.5;
+    zoom: 0.8;
     -moz-transform: scale(0.8);
-    border: solid 1px;
     position: absolute;
-    left: 35vw;
+    left: 58vw;
+    bottom: 0;
+    -webkit-box-shadow: -5px 2px 37px -5px rgba(0,0,0,0.57);
+    -moz-box-shadow: -5px 2px 37px -5px rgba(0,0,0,0.57);
+    box-shadow: -5px 2px 37px -5px rgba(0,0,0,0.57);
+    border-radius: 12px;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
   }
   .topnav.responsive {
     position: absolute;
@@ -654,11 +661,11 @@ body > .bg-02{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: calc(90vw - 24px);
+    width: calc(90vw - 0.2rem);
     background: transparent;
     z-index: 100;
     position: sticky;
-    padding: 24px;
+    padding: 1remi;
     font-weight: bold;
     text-align: left;
   }

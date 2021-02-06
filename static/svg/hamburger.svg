@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="34" height="29" viewBox="0 0 34 29">
-  <g id="Gruppe_4" data-name="Gruppe 4" transform="translate(-190 -33)">
-    <rect id="Rechteck_7" data-name="Rechteck 7" width="34" height="5" transform="translate(190 33)" fill="#fe3320"/>
-    <rect id="Rechteck_7-2" data-name="Rechteck 7" width="17" height="5" transform="translate(190 45)" fill="#fe3320"/>
-    <rect id="Rechteck_7-3" data-name="Rechteck 7" width="28" height="5" transform="translate(190 57)" fill="#fe3320"/>
+  <g id="Gruppe_5" data-name="Gruppe 5" transform="translate(-190 -33)">
+    <rect id="Rechteck_7" data-name="Rechteck 7" width="34" height="5" rx="2.5" transform="translate(190 33)" fill="#fe3320"/>
+    <rect id="Rechteck_7-2" data-name="Rechteck 7" width="17" height="5" rx="2.5" transform="translate(190 45)" fill="#fe3320"/>
+    <rect id="Rechteck_7-3" data-name="Rechteck 7" width="28" height="5" rx="2.5" transform="translate(190 57)" fill="#fe3320"/>
   </g>
 </svg>

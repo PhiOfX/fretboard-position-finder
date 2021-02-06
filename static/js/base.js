@@ -377,10 +377,22 @@ window.onbeforeunload = function(e) {
 
 /* Nav Bar */
 function navbarFunction() {
+  console.log('PING')
   var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
+  if (x.className === "topnav"){
     x.className += " responsive";
   } else {
     x.className = "topnav";
+  }
+  mbsContainerResponsive('mbs');
+  mbsContainerResponsive('mbs-portrait');
+}
+
+function mbsContainerResponsive(className){
+  var content = document.getElementsByClassName(className)[0]
+  if (content.classList.contains('responsive')) {
+     content.classList.remove('responsive');
+  } else {
+     content.classList.add('responsive');
   }
 }

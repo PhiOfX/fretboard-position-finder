@@ -1,21 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="39" viewBox="0 0 34 39">
-  <defs>
-    <clipPath id="clip-path">
-      <rect width="34" height="39" fill="none"/>
-    </clipPath>
-  </defs>
-  <g id="Wiederholungsraster_1" data-name="Wiederholungsraster 1" clip-path="url(#clip-path)">
-    <g transform="translate(-244 -32)">
-      <rect id="Rechteck_7" data-name="Rechteck 7" width="34" height="5" transform="translate(244 32)" fill="#fe3320"/>
-    </g>
-    <g transform="translate(-244 -21)">
-      <rect id="Rechteck_7-2" data-name="Rechteck 7" width="34" height="5" transform="translate(244 32)" fill="#fe3320"/>
-    </g>
-    <g transform="translate(-244 -10)">
-      <rect id="Rechteck_7-3" data-name="Rechteck 7" width="34" height="5" transform="translate(244 32)" fill="#fe3320"/>
-    </g>
-    <g transform="translate(-244 1)">
-      <rect id="Rechteck_7-4" data-name="Rechteck 7" width="34" height="5" transform="translate(244 32)" fill="#fe3320"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="29" viewBox="0 0 34 29">
+  <g id="Gruppe_4" data-name="Gruppe 4" transform="translate(-190 -33)">
+    <rect id="Rechteck_7" data-name="Rechteck 7" width="34" height="5" transform="translate(190 33)" fill="#fe3320"/>
+    <rect id="Rechteck_7-2" data-name="Rechteck 7" width="17" height="5" transform="translate(190 45)" fill="#fe3320"/>
+    <rect id="Rechteck_7-3" data-name="Rechteck 7" width="28" height="5" transform="translate(190 57)" fill="#fe3320"/>
   </g>
 </svg>

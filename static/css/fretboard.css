@@ -639,7 +639,7 @@ body > .bg-02{
   }
 }
 @media screen and (max-width: 710px) {
-  .mbs.responsive{
+  .mbs.responsive, .mbs-portrait.responsive{
     zoom: 0.5;
     -moz-transform: scale(0.8);
     border: solid 1px;
